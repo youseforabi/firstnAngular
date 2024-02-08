@@ -7,13 +7,25 @@ import { homeComponent } from './home/home.component';
 import { aboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { TeamComponent } from './team/team.component';
+import { LeaderComponent } from './leader/leader.component';
+import { ManagerComponent } from './manager/manager.component';
+import { BindingfromcomponentComponent } from './bindingfromcomponent/bindingfromcomponent.component';
 @NgModule({
   declarations: [
     AppComponent,
     homeComponent,
     aboutComponent,
     GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    NotfoundComponent,
+    NavbarComponent,
+    TeamComponent,
+    LeaderComponent,
+    ManagerComponent,
+    BindingfromcomponentComponent
   ],
   imports: [
     BrowserModule,
